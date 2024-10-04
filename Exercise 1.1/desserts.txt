@@ -5,4 +5,10 @@ Ice Cream
 Cake
 Brownies
 Tiramisu
-Chocolate Mousse
+Chocolate Mousses
+
+
+all_desserts_clean = []
+for dessert in all_desserts:
+     all_desserts_clean.append(dessert.rstrip('\n'))
+print(all_desserts_clean)
